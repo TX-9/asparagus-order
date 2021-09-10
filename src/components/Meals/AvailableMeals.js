@@ -7,7 +7,7 @@ const AvailableMeals = () => {
   const [meals, setMeals] = useState();
   const [isLoading, setIsLoading] = useState(true);
   const [httpError, setHttpError] = useState();
-
+  
   useEffect(()=> { // cannot be useEffect(async()=>{},[])
     // this is workaround for the limitation
     const fetchMeals = async () => {

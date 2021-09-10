@@ -1,5 +1,5 @@
 import React from "react";
-import mealImage from '../../assets/main-asparagus.jpg';
+import chicken from '../../assets/chicken.jpg';
 import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
 
@@ -10,7 +10,7 @@ const Header = props => {
             <HeaderCartButton onClick={props.onShowCart}></HeaderCartButton>
         </header>
         <div className={classes['main-image']}>
-            <img src={mealImage} alt='Asparagus!'/>
+            <img src={chicken} alt='Asparagus!'/>
         </div>
     </React.Fragment>
 };
